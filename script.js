@@ -6,7 +6,7 @@ let currFolder;
 async function getsong(folder)
 {
     currFolder=folder;
-    let a = await fetch(`http://127.0.0.1:5500/projectt/VibeBeat/${folder}/`)  
+    let a = await fetch(`http://127.0.0.1:5500/projectt/VibeBeat/${folder}/info.json`)  
      let response = await a.text();
         // console.log(response)
         let div =document.createElement("div")
