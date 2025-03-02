@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+
+    <title>Document</title>
+</head>
+<body>
+   <div class="container flex bg-black" style="min-height: 100vh;">
+    <div class="left   bg-black">
+        <div class="close">
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="home bg-grey rounded m1 p1">
+        <div class="logo"><i class="fa-brands fa-vine"></i>
+            <div class="logo-name">VibeBeat</div>
+        </div>
+        <ul>
+            <li><i class="fa-solid fa-house"></i>Home</li>
+            <li><i class="fa-solid fa-magnifying-glass"></i>Search</li>
+        </ul>    
+        </div>
+        <div class="library bg-grey m1 rounded p1">
+            <i class="fa-solid fa-guitar"></i>Your Library
+            <div class="songslist">
+                <ul>
+                     
+                </ul>
+            </div>
+            <div class="footer">
+                <ul class="svelte-83ut7t">
+                    <li class="svelte-83ut7t"><div class="link-wrapper svelte-and2gp"><a href="https://www.spotify.com/in-en/legal/" class="mh-footer-secondary svelte-1uudie4" id="">Legal</a> </div> 
+                </li><li class="svelte-83ut7t"><div class="link-wrapper svelte-and2gp"><a href="https://www.spotify.com/in-en/safetyandprivacy/" class="mh-footer-secondary svelte-1uudie4" id="">Safety &amp; Privacy Center</a> </div> </li>
+                <li class="svelte-83ut7t"><div class="link-wrapper svelte-and2gp"><a href="https://www.spotify.com/in-en/legal/privacy-policy/" class="mh-footer-secondary svelte-1uudie4" id="">Privacy Policy</a> </div> </li>
+                <li class="svelte-83ut7t"><div class="link-wrapper svelte-and2gp"><a href="https://www.spotify.com/in-en/legal/cookies-policy/" class="mh-footer-secondary svelte-1uudie4" id="">Cookies</a> </div> </li><li class="svelte-83ut7t"><div class="link-wrapper svelte-and2gp"><a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" class="mh-footer-secondary svelte-1uudie4" id="">About Ads</a> </div> </li>
+                <li class="svelte-83ut7t"><div class="link-wrapper svelte-and2gp"><a href="https://www.spotify.com/in-en/accessibility/" class="mh-footer-secondary svelte-1uudie4" id="">Accessibility</a> </div> </li></ul>
+            </div>
+        </div>
+    </div>
+    <div class="right bg-grey rounded  ">
+        <div class="header ">
+            <div class="nav ">
+                 <i class="fa-solid fa-bars hamburger"></i> 
+                <i class="fa-solid fa-less-than"></i>
+                <i class="fa-solid fa-greater-than"></i>
+            </div>
+            <div class="button">
+                <button class="signupbtn">Sign up</button>
+                <button class="loginbtn">Log in</button>
+            </div>
+    
+        </div>
+        <div class="spotify-playlist">
+                <h1>Jatin's Playlists</h1>
+        <div class="cardcontainer">
+            <div  data-folder="jatin" class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="jatin.jpg" alt="hits">
+                <h2>Jatin</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div data-folder="karan_aujla" class="card  ">
+                <div  class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div> 
+                <img src="https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da846419aff9fea391f2f4cbc81d" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <!-- <div class="card  ">
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div>
+            <div class="card  ">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+                <img src="https://i.scdn.co/image/ab67616d0000b273760921b9de555a27f9f79322" alt="hits">
+                <h2>Top Hits!</h2>
+                <p>Hits to boost your mood!</p>
+
+            </div> -->
+            <div class="play-bar">
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+                <div class="abovebar"> 
+                <div class="songInfo"></div>
+                <div class="songbutton">
+                      <i class="fa-solid fa-backward-step" id="back"></i>
+                    <i class="fa-solid fa-play" id="play"></i>
+                    <i  class="fa-solid fa-forward-step" id="next"></i>
+                </div>
+                <div class="songtime"></div>
+            </div>
+              
+            </div>
+        </div>
+        </div>
+    </div>
+   </div>
+   <script src="script.js"></script>
+   </body>
+</html>
