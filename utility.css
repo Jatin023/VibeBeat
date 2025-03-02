@@ -1,0 +1,64 @@
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+ *{
+    margin: 0px;
+    padding: 0px ;
+    
+    font-family: "Roboto", serif;
+}
+
+.border
+{
+    border: 2px solid rgb(220, 82, 82);
+    margin: 2px;
+}
+
+.flex{
+    display: flex;
+}
+
+.justify-center
+{
+    justify-content: center;
+}
+.items-center
+{
+    align-items: center;
+}
+
+.bg-black
+{
+color: white;
+background-color: black;
+}
+
+.bg-grey
+{
+    background-color: #434242;
+}
+
+.rounded
+{
+    border-radius: 7px
+}
+
+.m1{
+    margin: 5px;
+}
+
+::-webkit-scrollbar
+{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    border-radius: 6px;
+    background-color: #333;
+}
+::-webkit-scrollbar-track
+{
+    background-color: #222;
+}
+ 
